@@ -16,11 +16,13 @@ html, body {
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: rgba(150, 150, 150, 0.9);
 }
 
 header {
     padding: 15px 5px 5px;
+	background-color: gray;
+	box-shadow: 0px 4px teal;
 }
 
 .header-inner-container {
@@ -29,9 +31,10 @@ header {
 }
 
 header h1 {
-    font-size: 1.25em;
-    color: rgba(50, 50, 50, 0.9);
+    font-size: 1.5em;
+    color: white;
     margin-top: 35px;
+	text-shadow: 3px 3px teal;
 }
 
 .search-input {
