@@ -28,7 +28,6 @@ function getRandomPeople(callback) {
 }
 
 function createGallery(people) {
-	console.log(people[0]);
 	//loop over all the people
 	people.forEach((person, idx) => {
 		//create the HTML for the personal gallery card
